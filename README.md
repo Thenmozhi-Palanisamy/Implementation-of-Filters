@@ -25,7 +25,7 @@ Plot the images of the original one and the filtered one using plt.figure() and 
 Developed By :THENMOZHI P
 Register Number:212221230116
 ``
-1. Smoothing Filters
+## 1. Smoothing Filters
 i) Using Averaging Filter
 ```
 import cv2
@@ -46,8 +46,8 @@ plt.title('Filtered')
 plt.axis("off")
 
 ii) Using Weighted Averaging Filter
-```
-# Weighted Averaging Filter
+
+Weighted Averaging Filter
 import cv2 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -65,7 +65,7 @@ plt.imshow(image3)
 plt.title('Filtered')
 plt.axis('off')
 
-iii) Using Gaussian Filter
+#iii) Using Gaussian Filter
 ```
 # Gaussian Blurring
 import cv2 
@@ -128,9 +128,9 @@ plt.axis('off')
 
 
 
-ii) Using Laplacian Operator
+## ii) Using Laplacian Operator
 ``
-# Laplacian Operator
+Laplacian Operator
 import cv2 
 import numpy as np
 import matplotlib.pyplot as plt
