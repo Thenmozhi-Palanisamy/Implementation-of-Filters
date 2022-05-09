@@ -151,7 +151,7 @@ plt.axis('off')
 
 
 
-``
+```
 
 ## OUTPUT:
 ###  1. Smoothing Filters
