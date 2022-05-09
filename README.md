@@ -27,7 +27,7 @@ Register Number:212221230116
 ``
 1. Smoothing Filters
 i) Using Averaging Filter
-
+```
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -46,7 +46,7 @@ plt.title('Filtered')
 plt.axis("off")
 
 ii) Using Weighted Averaging Filter
-
+```
 # Weighted Averaging Filter
 import cv2 
 import numpy as np
@@ -66,7 +66,7 @@ plt.title('Filtered')
 plt.axis('off')
 
 iii) Using Gaussian Filter
-
+```
 # Gaussian Blurring
 import cv2 
 import numpy as np
@@ -86,7 +86,7 @@ plt.axis('off')
 
 
 iv) Using Median Filter
-
+```
 # Median Blurring
 import cv2 
 import numpy as np
@@ -107,7 +107,7 @@ plt.axis('off')
 
 2. Sharpening Filters
 i) Using Laplacian Kernal
-
+``
 # Laplacian Kernel
 import cv2 
 import numpy as np
@@ -129,7 +129,7 @@ plt.axis('off')
 
 
 ii) Using Laplacian Operator
-
+``
 # Laplacian Operator
 import cv2 
 import numpy as np
